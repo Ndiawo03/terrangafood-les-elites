@@ -1,4 +1,4 @@
-# 🍛 TerrangaFood
+# 🍛 TerrangaFood - Les Elites
 
 Plateforme de commande de plats auprès de restaurants dakarois.
 
@@ -85,3 +85,10 @@ terrangafood/
 ## Licence
 
 Projet pédagogique — Usage académique uniquement.
+## Fonctionnalités existantes
+
+- Affichage de la liste des restaurants
+- Affichage des détails d’un restaurant
+- Affichage des plats
+- API REST fonctionnelle
+
