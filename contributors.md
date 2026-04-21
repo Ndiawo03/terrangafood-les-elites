@@ -3,6 +3,6 @@
 ## Équipe : Les Elites
 
 | Membre | Rôle Lab 0 | GitHub |
-|--------|------------|--------|
+|--------|-------------|--------|
 | MOUHAMADOU C M SYLLA | DF | @blaackface |
-| Nawal NGOM | QA | @Nawal810 |
+| Yacine Samb | DB | @Yacine11-S |
