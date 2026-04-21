@@ -4,4 +4,4 @@
 
 | Membre | Rôle Lab 0 | GitHub |
 |--------|-----------|--------|
-| Nawal NGOM | QA | @Nawal810 |
+| (à compléter par chaque membre via PR) | | |

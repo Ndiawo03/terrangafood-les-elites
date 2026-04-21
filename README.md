@@ -1,4 +1,4 @@
-# 🍛 TerrangaFood
+# 🍛 TerrangaFood - Les Elites
 
 Plateforme de commande de plats auprès de restaurants dakarois.
 
