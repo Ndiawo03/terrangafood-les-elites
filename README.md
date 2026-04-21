@@ -39,7 +39,7 @@ cp .env.example .env
 
 ### 3. Installation des dépendances
 
-Le projet est divisé en deux parties indépendantes. Vous devez installer les modules pour chacune d'elles :
+Le projet est divise en deux parties indépendantes. Vous devez installer les modules pour chacune d'elles :
 
 # Installation des dépendances du Backend (API)
 ```
