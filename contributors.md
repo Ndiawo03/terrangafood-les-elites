@@ -4,5 +4,8 @@
 
 | Membre | Rôle Lab 0 | GitHub |
 |--------|-------------|--------|
-| MOUHAMADOU C M SYLLA | DF | @blaackface |
-| Yacine Samb | DB | @Yacine11-S |
+| Ndiawo Ba FALL | CP | @Ndiawo03 |
+| Yacine SAMB | DB | @Yacine11-S |
+| Moustapha SYLLA | DF | @Blaackface |
+| Fatou NDOYE | DO | @Cessprin-28 |
+| Nawal NGOM | QA | @Nawal810 |
