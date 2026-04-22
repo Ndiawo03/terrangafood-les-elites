@@ -1,4 +1,4 @@
-# 🍛 TerrangaFood
+# 🍛 TerrangaFood - Les Elites
 
 Plateforme de commande de plats auprès de restaurants dakarois.
 
@@ -13,48 +13,69 @@ Plateforme de commande de plats auprès de restaurants dakarois.
 | Base de données | MongoDB (local ou Atlas) |
 
 ## Démarrage rapide
+Suivez ces étapes pour installer et lancer le projet localement sur votre machine.
 
-### Prérequis
+### 1. Prérequis
+* **Node.js** (version 20 LTS ou supérieure)
+* **MongoDB** (serveur local ou un cluster MongoDB Atlas)
+* **Git**
 
-- Node.js 20 LTS
-- MongoDB (local ou compte Atlas)
-- Git
+### 2. Installation et Configuration
 
-### Installation
-
-```bash
 # Cloner le dépôt
-git clone https://github.com/[votre-pseudo]/terrangafood-[equipe].git
+```
+git clone [https://github.com/](https://github.com/)[votre-pseudo]/terrangafood-[equipe].git
 cd terrangafood-[equipe]
+```
 
 # Configurer les variables d'environnement
+# Copiez le fichier d'exemple pour créer votre propre .env
+```
 cp .env.example .env
-# Éditez .env avec votre URI MongoDB
+```
 
-# Installer les dépendances API
+# ⚠️ IMPORTANT : Ouvrez le fichier .env et renseignez votre URI MongoDB :
+# Exemple : MONGODB_URI=mongodb://localhost:27017/terrangafood
+
+### 3. Installation des dépendances
+
+Le projet est divise en deux parties indépendantes. Vous devez installer les modules pour chacune d'elles :
+
+# Installation des dépendances du Backend (API)
+```
 cd api
 npm install
+```
 
-# Installer les dépendances Frontend
+# Installation des dépendances du Frontend (Web)
+```
 cd ../web
 npm install
 ```
 
-### Lancement
+### 4. Lancement des serveurs
 
-```bash
-# Terminal 1 — API (port 3001)
+Pour faire fonctionner l'application, vous devez lancer les deux modules simultanément dans deux terminaux différents :
+
+Terminal 1 — API Backend (Port 3001)
+
+```
 cd api
 npm run dev
+```
 
-# Terminal 2 — Frontend (port 3000)
+Terminal 2 — Interface Frontend (Port 3000)
+
+```
 cd web
 npm run dev
 ```
 
-### Initialiser les données
+### 5. Initialisation des données (Seed)
 
-```bash
+Si vous souhaitez remplir votre base de données avec des exemples de restaurants et de menus dakarois :
+
+```
 cd api
 npm run seed
 ```
@@ -85,3 +106,10 @@ terrangafood/
 ## Licence
 
 Projet pédagogique — Usage académique uniquement.
+## Fonctionnalités existantes
+
+- Affichage de la liste des restaurants
+- Affichage des détails d’un restaurant
+- Affichage des plats
+- API REST fonctionnelle
+
