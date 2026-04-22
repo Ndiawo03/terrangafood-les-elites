@@ -69,11 +69,12 @@ exports.updateStatut = async (req, res, next) => {
       return res.status(404).json({ message: 'Commande non trouvée' });
     }
 
-    if (!transitions.includes(statut)) {
+    const transitionsValides = transitionsAutorisees[commande.statut] || [];
+    if (!transitionsValides.includes(statut)) {
       return res.status(400).json({
         message: 'Transition impossible',
         details: `${commande.statut} ne peut pas devenir ${statut}`,
-        transitionsAutorisees: transitions
+        transitionsAutorisees: transitionsValides
       });
     }
 

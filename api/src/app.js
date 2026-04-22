@@ -12,7 +12,7 @@ const dotenv = require('dotenv');
 
 const restaurantRoutes = require('./routes/restaurants');
 const platRoutes = require('./routes/plats');
-const commandeRoutes = require('./routes/commandes');
+const commandeRoutes = require('./routes/commande');
 const errorHandler = require('./middleware/errorHandler');
 
 // Charger les variables d'environnement
