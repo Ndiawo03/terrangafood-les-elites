@@ -6,18 +6,18 @@ http://localhost:3001/api
 ## Restaurants (existant)
 | Méthode | Endpoint | Description |
 | :--- | :--- | :--- |
-| GET | /api/restaurants | Lister les restos |
-| GET | /api/restaurants/:id | Détail d'un resto |
-| POST | /api/restaurants | Créer un resto |
-| PUT | /api/restaurants/:id | Modifier un resto |
-| DELETE | /api/restaurants/:id | Supprimer un resto |
+| GET | /api/restaurants | Lister les restaurants |
+| GET | /api/restaurants/:id | Détail d'un restaurant |
+| POST | /api/restaurants | Créer un restaurant |
+| PUT | /api/restaurants/:id | Modifier un restaurant |
+| DELETE | /api/restaurants/:id | Supprimer un restaurant |
 
 ## Plats (existant)
 | Méthode | Endpoint | Description |
 | :--- | :--- | :--- |
 | GET | /api/plats | Lister les plats |
 | GET | /api/plats/:id | Détail d'un plat |
-| GET | /api/plats/restaurant/:restoId | Plats d'un resto |
+| GET | /api/plats/restaurant/:restoId | Plats d'un restaurant |
 | POST | /api/plats | Créer un plat |
 | PUT | /api/plats/:id | Modifier un plat |
 | DELETE | /api/plats/:id | Supprimer un plat |
@@ -41,3 +41,6 @@ http://localhost:3001/api
   "montantTotal": 4500,
   "commentaire": "Sans piment"
 }
+```
+
+### Workflow de statut
