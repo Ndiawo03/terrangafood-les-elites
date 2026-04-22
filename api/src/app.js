@@ -1,3 +1,4 @@
+// @ts-nocheck
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -6,6 +7,7 @@ const dotenv = require('dotenv');
 
 const restaurantRoutes = require('./routes/restaurants');
 const platRoutes = require('./routes/plats');
+const commandeRoutes = require('./routes/commandes');
 const errorHandler = require('./middleware/errorHandler');
 
 // Charger les variables d'environnement
@@ -19,20 +21,22 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 
-// --- Routes ---
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
   res.json({
     message: 'Bienvenue sur l\'API TerrangaFood 🍛',
     version: '0.0.0',
     endpoints: {
       restaurants: '/api/restaurants',
-      plats: '/api/plats'
+      plats: '/api/plats',
+      commandes: '/api/commandes'
     }
   });
 });
 
+
 app.use('/api/restaurants', restaurantRoutes);
 app.use('/api/plats', platRoutes);
+app.use('/api/commandes', commandeRoutes);
 
 // --- Gestion des erreurs ---
 app.use(errorHandler);
