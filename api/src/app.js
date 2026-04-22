@@ -1,4 +1,9 @@
-// @ts-nocheck
+/**
+ * app.js
+ * Point d'entrée principal du serveur backend.
+ * Ce fichier initialise l'application Express, configure les middlewares
+ * et définit les routes principales de l'API.
+ */
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
