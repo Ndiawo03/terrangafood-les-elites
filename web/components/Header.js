@@ -5,10 +5,11 @@ export default function Header() {
     <header className="header">
       <div className="header-content">
         <Link href="/" className="header-logo">
-          🍛 <span>Terranga<span>Food</span>les-elites</span>
+          Terranga<span>Food</span>
         </Link>
         <nav className="header-nav">
           <Link href="/">Restaurants</Link>
+          <Link href="/mes-commandes">Mes commandes</Link>
         </nav>
       </div>
     </header>
