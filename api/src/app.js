@@ -16,7 +16,12 @@ const commandeRoutes = require('./routes/commande');
 const errorHandler = require('./middleware/errorHandler');
 
 // Charger les variables d'environnement
-dotenv.config({ path: '../.env' });
+const path = require('path');
+const envPath = path.resolve(__dirname, '../../.env');
+const fs = require('fs');
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001;
