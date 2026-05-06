@@ -112,4 +112,7 @@ Projet pédagogique — Usage académique uniquement.
 - Affichage des détails d’un restaurant
 - Affichage des plats
 - API REST fonctionnelle
+## URLs de production
 
+- **Frontend** : https://terrangafood-les-elites.vercel.app
+- **API** : https://terrangafood-api-les-elites.onrender.comgit add
