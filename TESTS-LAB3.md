@@ -18,7 +18,7 @@
 | 6 | 3 conteneurs en état "Up" |✅ | |
 | 7 | Seed fonctionne dans le conteneur |✅ | |
 | 8 | API répond sur localhost:3001 |✅ | |
-| 9 | Frontend répond sur localhost:3000 | | erreur port deja utilise|
+| 9 | Frontend répond sur localhost:3000 |❌ | erreur port deja utilise|
 
 ### Fonctionnel
 | # | Test | OK ? | Notes |
